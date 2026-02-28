@@ -47,12 +47,12 @@ cd short-form-generator
 ```
 
 2. Install dependencies
-
-- [gTTS](https://pypi.org/project/gTTS/)
-- [Whisper](https://pypi.org/project/whisper/)
-  - Whisper's 'small.en' model must be configured. Can be modified in srt.py
-- [MoviePy](https://pypi.org/project/moviepy/)
-- [ffmpeg-smart-trim](https://pypi.org/project/ffmpeg-smart-trim/)
+  
+  - [gTTS](https://pypi.org/project/gTTS/)
+  - [Whisper](https://pypi.org/project/whisper/)
+    - Whisper's 'small.en' model must be configured. Can be modified in srt.py
+  - [MoviePy](https://pypi.org/project/moviepy/)
+  - [ffmpeg-smart-trim](https://pypi.org/project/ffmpeg-smart-trim/)
 
 ## Example Usage
 
@@ -76,3 +76,4 @@ cd short-form-generator
   - Should support all major video formats
 - ### Resulting video format:
   - Exports videos as .mp4
+
